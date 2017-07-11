@@ -3,7 +3,7 @@ class Transaction
   attr_reader :transactions
 
   def initialize()
-    @transactions = []
+    @transactions = {}
   end
 
   def deposit(amount)

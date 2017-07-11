@@ -9,4 +9,8 @@ describe Transaction do
   it 'should exist' do
     expect(transaction).to be_truthy
   end
+
+  it 'should be empty when initialized' do
+    expect(transaction.transactions).to be_empty
+  end
 end
